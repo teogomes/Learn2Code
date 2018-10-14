@@ -28,7 +28,7 @@ public class testActivity extends AppCompatActivity implements View.OnClickListe
         for(int i=0;i<tp;i++){
             progressBars[i/4].setProgress(progressBars[i/4].getProgress() + 1);
         }
-        Log.d("Test Git","GIT TEST");
+
         initComps();
     }
 

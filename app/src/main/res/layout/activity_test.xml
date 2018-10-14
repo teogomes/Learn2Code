@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.teogomes.unipiapp.testActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.teogomes.unipiapp.LearnActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/basicTest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="30dp"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true">
+
+
+                            <ProgressBar
+                                android:id="@+id/basicTestProg"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="150dip"
+                                android:layout_height="150dip"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:indeterminate="false"
+                                android:max="4"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/circle2" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="Basic" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/conditionsTest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:clickable="true">
+
+
+                            <ProgressBar
+                                android:id="@+id/conditionTestProg"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="150dip"
+                                android:layout_height="150dip"
+                                android:layout_centerInParent="true"
+                                android:indeterminate="false"
+                                android:max="4"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/circle2" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="Conditions" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/loopsTest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginEnd="20dp"
+                            android:clickable="true">
+
+
+                            <ProgressBar
+                                android:id="@+id/loopTestProg"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="150dip"
+                                android:layout_height="150dip"
+                                android:layout_centerInParent="true"
+                                android:indeterminate="false"
+                                android:max="4"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/circle2" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="Loops" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/objectsTest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:clickable="true">
+
+
+                            <ProgressBar
+                                android:id="@+id/objectTestProg"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="150dip"
+                                android:layout_height="150dip"
+                                android:layout_centerInParent="true"
+                                android:indeterminate="false"
+                                android:max="4"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/circle2" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="Objects" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
